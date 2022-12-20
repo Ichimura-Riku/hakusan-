@@ -1,0 +1,74 @@
+body {
+    background-image: url("https://www.jalan.net/rentacar/drive/wp-content/uploads/2018/05/7b8b1_0003743372_1-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+
+header{
+    width: 100%;
+    padding: 15px 0;
+    margin: 0 auto;
+    text-align: center;
+    /* background-color: rgba(29, 245, 227, 0.664); */
+    border-bottom: 3px solid rgb(0, 87, 51);
+
+}
+/* a{
+    padding: 10px ;
+    background: rgb(0, 0, 255);
+    text-decoration: none;
+    color: #ffffff;     /* 文字色     */
+    border-radius: 5px  ; */
+
+}
+.headerText{
+    color: coral;
+}
+
+.content{
+    position:relative;
+	padding:10px 10px 10px 120px;
+    /* width: 50%; */
+	min-height:80px;
+}
+.questContent{
+    /* display: inline-flex; */
+    margin: auto;
+
+
+}
+.button{
+
+    padding: 10px ;
+    background: rgb(0, 0, 255);
+    text-decoration: none;
+    color: #ffffff;     /* 文字色     */
+    border-radius: 5px  ;
+}
+.questRecruiting{
+    /* margin: 1rem; */
+    background-color: rgb(238, 138, 16);
+    padding: 1rem;
+    border-radius: 10px;
+    position:absolute;
+
+    left:10px;
+	top:10px;
+
+}
+
+.questOder{
+    /* margin: 1rem; */
+    background-color: rgb(87, 201, 21);
+    padding: 1rem;
+    border-radius: 10px;
+    position:absolute;
+
+    right:10px;
+	top:10px;
+}
+
+.Introduction{
+
+}

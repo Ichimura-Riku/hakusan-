@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>クエスト斡旋プラットフォーム</title>
+    <link rel="stylesheet" href="rpg.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <h1 class="headerText">白クエ！</h1>
+        </div>
+    </header>
+    <main>
+        <div class="content">
+
+            <div class="questContent container-fluid">
+
+                <div class="low">
+                    <!-- 左側の要素 -->
+                    <div class="questRecruiting col-sm-4 questContent" id="quizContent1-js">
+                        <h3>クエストの募集を行っています</h3>
+                        <div class="d-flex justify-content-center">
+                            <a class="button Flex-item" href="https://docs.google.com/forms/d/e/1FAIpQLSfvw0Ej8R-Wo5VigUvDF0qu0SLW2FSPzPKIYqW6-fxzKwixcw/viewform">クエスト申請</a>
+                        </div>
+
+                        <p></p>
+                    </div>
+                    <!-- 右側の要素 -->
+                    <div class="questOder col-sm-4 questContent" id="quizContent2-js">
+                        <h3>クエスト受注ページ</h3>
+                        <div class="d-flex justify-content-center">
+                            <a class="button Flex-item" href="questOder.html">クエスト受注</a>
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="Introduction">
+                <h3></h3>
+            </div>
+        </div>
+    </main>
+    <script>
+        console.log(screen.availWidth);
+        if (screen.availWidth === 577) {
+            document.getElementById("questContent1-js").classList.remove("col-sm-4");
+            document.getElementById("questContent2-js").classList.remove("col-sm-4");
+
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
